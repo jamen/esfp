@@ -1,13 +1,13 @@
 
-# esfp
+# ES Functional Programming
 
-> Better functional programming in JS
+> Making functional programming in JavaScript better
 
-This repo is a [browserify](https://npmjs.com/browserify) transform that provides several features (standard and non-standard) for writing functional programs in JavaScript.  The repo also serves as a place to discuss the features and moving JavaScript in a more functional direction.
+This project is a [Browserify transform](https://www.npmjs.com/package/browserify) that has several features (some non-standard) for doing functional programming in JavaScript better.  The repo also serves as a place to discuss moving JavaScript in a more functional direction, and how we can add them here.
 
 ## Features
 
- - Subset of the good ES6+ features (inspired from [`es2020`](https://npmjs.com/es2020) and [`es2040`](https://npmjs.com/es2040))
+ - The good ES6+ features (inspired from [`es2020`](https://npmjs.com/es2020) and [`es2040`](https://npmjs.com/es2040))
    - Template literals
    - Arrow functions
    - Block scoping
@@ -16,7 +16,7 @@ This repo is a [browserify](https://npmjs.com/browserify) transform that provide
    - Rest/spread
    - Shorthand properties (e.g. `{ foo, bar }`)
    - Object rest/spreads (e.g. `{ ...foo, bar: 123 }`)
- - Non-standard features to help functional programming
+ - Non-standard features
    - [Pipe operator over](https://npmjs.com/babel-plugin-pull) [`pull-stream`](https://github.com/pull-stream/pull-stream)
    - [Implicit return value](https://npmjs.com/babel-plugin-implicit-return)
    - React JSX with `pragma: 'h'` out-of-the-box
