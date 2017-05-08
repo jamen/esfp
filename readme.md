@@ -1,9 +1,9 @@
 
 # ES Functional Programming
 
-> Making functional programming in JavaScript better
+> Improve functional programming in JavaScript
 
-This project is a [Browserify transform](https://www.npmjs.com/package/browserify) that has several features (some non-standard) for doing functional programming in JavaScript better.  The repo also serves as a place to discuss moving JavaScript in a more functional direction, and how we can add them here.
+This is a [Browserify transform](https://www.npmjs.com/package/browserify) with several features (many non-standard) to improve writing JavaScript in a functional style. This repo also serves as a place to discuss moving JavaScript in a more functional direction and how to impliment them in esfp.
 
 ## Features
 
@@ -86,7 +86,7 @@ You can also create streams from other streams (known as a "partial"):
 
 ```js
 const foo =
-  infinity() 
+  infinity()
   | map(x => x * 100)
   | filter(x => x % 2)
 
@@ -135,4 +135,3 @@ You can use this with librares like [`hyperapp`](https://npmjs.com/hyperapp) ins
 ---
 
 Maintained by [Jamen Marz](https://git.io/jamen) (See on [Twitter](https://twitter.com/jamenmarz) and [GitHub](https://github.com/jamen) for questions & updates)
-
