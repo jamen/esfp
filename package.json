@@ -5,16 +5,15 @@
   "author": "Jamen Marz (https://git.io/jamen)",
   "main": "index.js",
   "repository": "jamen/esfp",
-  "scripts": {
-    "test": "node test"
-  },
   "keywords": [
     "jamen",
-    "esfp"
+    "esfp",
+    "browserify",
+    "functional",
+    "programming"
   ],
   "devDependencies": {
-    "pull-stream": "^3.5.0",
-    "tape": "^4.6.3"
+    "pull-stream": "^3.5.0"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
