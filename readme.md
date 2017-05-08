@@ -3,7 +3,7 @@
 
 > Improve functional programming in JavaScript
 
-This is a [Browserify transform](https://www.npmjs.com/package/browserify) with several features (many non-standard) to improve writing JavaScript in a functional style. This repo also serves as a place to discuss moving JavaScript in a more functional direction and how to impliment them in esfp.
+This is a [Browserify transform](https://www.npmjs.com/package/browserify) with several features (some non-standard) to improve writing JavaScript in a functional style. This repo also serves as a place to discuss moving JavaScript in a more functional direction, and how to impliment that here.
 
 ## Features
 
