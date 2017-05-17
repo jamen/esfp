@@ -20,6 +20,7 @@ This project is a [Browserify transform](https://www.npmjs.com/package/browserif
    - [Pipe operator over](https://npmjs.com/babel-plugin-pull) [`pull-stream`](https://github.com/pull-stream/pull-stream)
    - [Implicit return value](https://npmjs.com/babel-plugin-implicit-return)
    - React JSX with `pragma: 'h'` out-of-the-box
+   - [Static type checking with Flow](https://flow.org/)
 
 Here is an example of piping, with implicit return, and cloning an object using spread:
 
@@ -131,6 +132,30 @@ function foo (e, data) {
 ```
 
 You can use this with librares like [`hyperapp`](https://npmjs.com/hyperapp) instead of having to load `babelify` + the plugin.
+
+
+### Static type checking
+
+This plugin automatically strips [Flow types](https://flow.org/) for static type checking.
+
+**Note:** It does not actually check the types. Use something like [ESLint](https://github.com/gajus/eslint-plugin-flowtype) for that aspect.
+
+```js
+function foo (bar: number, baz: number): number {
+  return bar + baz
+}
+```
+
+This could be replaced with a more functional-style type checking:
+
+```js
+// foo : number, number
+function foo (bar, baz) {
+  return bar + baz
+}
+```
+
+Let me know your suggestions
 
 ---
 

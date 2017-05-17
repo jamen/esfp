@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-core": "^6.24.1",
-    "babel-preset-esfp": "^0.1.0",
+    "babel-preset-esfp": "^0.2.0",
     "through2": "^2.0.3"
   }
 }
